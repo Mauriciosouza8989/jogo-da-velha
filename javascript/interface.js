@@ -3,8 +3,8 @@ let reiniciar = document.getElementById("reiniciar");
 let jogadorX = document.getElementById("jogadorX");
 let jogadorO = document.getElementById("jogadorO");
 
-jogadorO.innerHTML = 'o';
-jogadorX.innerHTML = 'x';
+jogadorO.innerHTML = o;
+jogadorX.innerHTML = x;
 
 document.addEventListener("DOMContentLoaded", () => {
     mostrador.innerHTML = `É a vez do jogador <h1>${symbols[playerTime]}</h1>`;
